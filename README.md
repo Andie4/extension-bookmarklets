@@ -13,7 +13,7 @@ Pour récupérer l'extension il faut :
 
 
 ## Environnement de travail :
-Cette extension est uniquement fonctionnelles sur Firefox.
+Cette extension est uniquement fonctionnelle sur Firefox.
 
 ## Sources:
 * Icon : <a href="https://www.flaticon.com/fr/icone-gratuite/programmation-web_2582268?term=programmation+web&page=1&position=33&origin=tag&related_id=2582268">Programmation web icônes créées par vectorspoint - Flaticon </a>
