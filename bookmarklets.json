@@ -1,46 +1,46 @@
 [
   {
-    "id": "List buttons",
+    "id": "Liste des boutons",
     "script": "listButtons"
   },
   {
-    "id": "List images",
+    "id": "Liste des images",
     "script": "listImages"
   },
   {
-    "id": "List links",
+    "id": "Liste des liens",
     "script": "listLinks"
   },
   {
-    "id": "List Tabs",
+    "id": "Liste des tableaux",
     "script": "listTabs"
   },
   {
-    "id": "Focus indicator",
+    "id": "Indications sur le focus",
     "script": "focusIndicator"
   },
   {
-    "id": "Focus style",
+    "id": "Style du focus",
     "script": "focusStyle"
   },
   {
-    "id": "Lost focus alert",
+    "id": "Alerte du focus perdu",
     "script": "lostFocusAltert"
   },
   {
-    "id": "Focus order",
+    "id": "Odre du focus",
     "script": "focusOrder"
   },
   {
-    "id": "Structure revealer",
+    "id": "Révélateur de structure",
     "script": "structureRevealer"
   },
   {
-    "id": "Grouped fields",
+    "id": "Champs groupés",
     "script": "groupedFields"
   },
   {
-    "id": "Check headings",
+    "id": "Vérifier les titres",
     "script": "checkHeadings"
   },
   {
@@ -48,11 +48,11 @@
     "script": "WTFocus"
   },
   {
-    "id": "Check new window links",
+    "id": "Vérifier les liens ouvrant une nouvelle fenêtre",
     "script": "checkNewWindowLinks"
   },
   {
-    "id": "Visually hidden",
+    "id": "Masqué visuellement",
     "script": "visuallyHidden"
   },
   {
@@ -64,63 +64,63 @@
     "script": "clickDeCrapulator"
   },
   {
-    "id": "Look up WCAG success criteria",
+    "id": "Consulter les critères de conformité WCAG",
     "script": "lookUpWCAGSuccessCriteria"
   },
   {
-    "id": "Look up HTML reference",
+    "id": "Consulter la documentation HTML",
     "script": "lookUpHTMLReference"
   },
   {
-    "id": "Swatchify color refs",
+    "id": "Inverser les refs des couleurs",
     "script": "swatchifyColorRefs"
   },
   {
-    "id": "Viewport details (retina display 2x pixel density)",
+    "id": "Détails de la fenêtre d'affichage (retina display 2x pixel density)",
     "script": "viewportDetails-2xPixelDensity"
   },
   {
-    "id": "Viewport details (non retina display 1x pixel density)",
+    "id": "Détails de la fenêtre d'affichage(non retina display 1x pixel density)",
     "script": "viewportDetails-1xPixelDensity"
   },
   {
-    "id": "Viewport details (non retina 1.5x pixel density)",
+    "id": "Détails de la fenêtre d'affichage(non retina 1.5x pixel density)",
     "script": "viewportDetails-1-5xPixelDensity"
   },
   {
-    "id": "GetTableData",
+    "id": "Récupérer les données du tableau",
     "script": "getTableData"
   },
   {
-    "id": "Page color analysis",
+    "id": "Analyse des couleurs de la page",
     "script": "pageColorAnalysis"
   },
   {
-    "id": "Navigate like screen reader user",
+    "id": "Naviguer comme un utilisateur de lecteur d'écran",
     "script": "navigateLikeScreenReaderUser"
   },
   {
-    "id": "Non underlined links",
+    "id": "Liens non soulignés",
     "script": "nonUnderlinedLinks"
   },
   {
-    "id": "Suggest autocomplete values",
+    "id": "suggestions de saisie automatique",
     "script": "suggestAutocompleteValues"
   },
   {
-    "id": "Live region watcher",
+    "id": "Observateur de zones actives",
     "script": "liveRegionWatcher"
   },
   {
-    "id": "Screen reader simulation",
+    "id": "Simulation de lecteur d'écran",
     "script": "screenReaderSimulation"
   },
   {
-    "id": "List things with titles",
+    "id": "Liste d'éléments avec titres",
     "script": "listThingsWithTitles"
   },
   {
-    "id": "Attribute stripper",
+    "id": "",
     "script": "attributeStripper"
   },
   {
@@ -140,7 +140,7 @@
     "script": "serialKiller"
   },
   {
-    "id": "Isolator",
+    "id": "Isolateur",
     "script": "isolator"
   },
   {
@@ -152,7 +152,7 @@
     "script": "xpath&SourceGetter"
   },
   {
-    "id": "Get All Links in Selected Area",
+    "id": "Récupération des les liens de la zone sélectionnée",
     "script": "getAllLinksInSelectedArea"
   },
   {
@@ -160,7 +160,7 @@
     "script": "linkOpener"
   },
   {
-    "id": "Element Inspector",
+    "id": "Inspecteur d'éléments",
     "script": "elementInspector"
   },
   {
@@ -168,19 +168,19 @@
     "script": "outliner"
   },
   {
-    "id": "Blur everything",
+    "id": "Tout flouter",
     "script": "blurEverything"
   },
   {
-    "id": "Blur everything except",
+    "id": "Tout flouter excepté",
     "script": "blurEverythingExcept"
   },
   {
-    "id": "Grayscale everything",
+    "id": "Tout griser",
     "script": "grayscaleEverything"
   }, 
   {
-    "id": "Grayscale images",
+    "id": "Griser les images",
     "script": "grayscaleImages"
   },
   {
@@ -188,7 +188,7 @@
     "script": "smartInvert"
   },
   {
-    "id": "Freez the Dom",
+    "id": "Figer le Dom",
     "script": "freezeTheDom"
   },
   {
@@ -196,15 +196,15 @@
     "script": "unframeIframes"
   },
   {
-    "id": "Light/Dark scheme (White/Black)",
+    "id": "Thème Light/Dark (White/Black)",
     "script": "whiteBlackMode"
   },
   {
-    "id": "Light/Dark scheme (Light Grey/Dark Grey)",
+    "id": "Thème Light/Dark (Light Grey/Dark Grey)",
     "script": "lightGreyDarkGreyMode"
   },
   {
-    "id": "Light/Dark scheme (Lurid)",
+    "id": "Thème Light/Dark (Lurid)",
     "script": "luridMode"
   }
 ]

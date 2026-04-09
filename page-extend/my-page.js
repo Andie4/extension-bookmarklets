@@ -36,8 +36,8 @@ const tbody = document.getElementById("table-body");
     title.textContent = "Liste des liens";
     total.textContent = data.length + " lien(s) trouvé(s)";
     thead.innerHTML = `<tr>
-        <th>Link type</th>
-        <th>Texte</th>
+        <th>Type</th>
+        <th>Libellé</th>
         <th>href</th>
         <th>Title</th>
     </tr>`;
@@ -60,9 +60,9 @@ const tbody = document.getElementById("table-body");
     title.textContent = "Liste des images";
     total.textContent = data.length + " image(s) trouvée(s)";
     thead.innerHTML = `<tr>
-      <th>image thumbnail</th>
-      <th>src</th>
-      <th>alt</th>
+      <th>Aperçu</th>
+      <th>Source</th>
+      <th>Alternative textuelle</th>
       <th>Notes</th>
     </tr>`;
     data.forEach(img => {
