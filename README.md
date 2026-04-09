@@ -9,7 +9,8 @@ Pour récupérer l'extension il faut :
 3. Cliquez sur "Ce firefox"
 4. Cliquez sur "Charger un module complémentaire temporaire..."
 5. Sélectionnez le fichier "manifest.json"
-6. Vous pouvez dès à présent voir l'icon de l'extension et cliquer dessus pour l'utiliser. 
+6. Cliquez sur l'icon des extensions de firefox <img src="icon/extension.png">
+7. Vous pouvez dès à présent voir l'icon de l'extension et cliquer dessus pour l'utiliser. 
 
 
 ## Environnement de travail :
