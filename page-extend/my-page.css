@@ -1,0 +1,26 @@
+@font-face{
+    src: url(/fontes\ desktop/Marianne-Bold.otf);
+    src: url(/fontes\ desktop/Marianne-Regular.otf);
+    font-family: Marianne;
+
+}
+
+body{
+    font-family: Marianne;
+}
+
+table{
+    border: solid 1px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+thead{
+    background-color: #f6f6f6;
+}
+

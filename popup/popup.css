@@ -1,0 +1,36 @@
+@font-face{
+    src: url(/fontes\ desktop/Marianne-Regular.otf);
+    src: url(/fontes\ desktop/Marianne-Bold.otf);
+    font-family: Marianne;
+
+}
+
+body{
+    font-family: Marianne;
+}
+
+button{
+    background-color:#000091;
+    color: #F5F5FE;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    margin: 0.5rem;
+
+}
+
+button:hover {
+    background-color:#1212ff;
+    color: #F5F5FE;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border: none;
+    margin: 0.5rem;
+
+}
+
+ul{
+    display: grid;
+    justify-content: center;
+    margin: 1rem;
+}

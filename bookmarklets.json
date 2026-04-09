@@ -1,0 +1,210 @@
+[
+  {
+    "id": "List buttons",
+    "script": "listButtons"
+  },
+  {
+    "id": "List images",
+    "script": "listImages"
+  },
+  {
+    "id": "List links",
+    "script": "listLinks"
+  },
+  {
+    "id": "List Tabs",
+    "script": "listTabs"
+  },
+  {
+    "id": "Focus indicator",
+    "script": "focusIndicator"
+  },
+  {
+    "id": "Focus style",
+    "script": "focusStyle"
+  },
+  {
+    "id": "Lost focus alert",
+    "script": "lostFocusAltert"
+  },
+  {
+    "id": "Focus order",
+    "script": "focusOrder"
+  },
+  {
+    "id": "Structure revealer",
+    "script": "structureRevealer"
+  },
+  {
+    "id": "Grouped fields",
+    "script": "groupedFields"
+  },
+  {
+    "id": "Check headings",
+    "script": "checkHeadings"
+  },
+  {
+    "id": "WTFocus",
+    "script": "WTFocus"
+  },
+  {
+    "id": "Check new window links",
+    "script": "checkNewWindowLinks"
+  },
+  {
+    "id": "Visually hidden",
+    "script": "visuallyHidden"
+  },
+  {
+    "id": "Blackout",
+    "script": "blackout"
+  },
+  {
+    "id": "Click de crapulator",
+    "script": "clickDeCrapulator"
+  },
+  {
+    "id": "Look up WCAG success criteria",
+    "script": "lookUpWCAGSuccessCriteria"
+  },
+  {
+    "id": "Look up HTML reference",
+    "script": "lookUpHTMLReference"
+  },
+  {
+    "id": "Swatchify color refs",
+    "script": "swatchifyColorRefs"
+  },
+  {
+    "id": "Viewport details (retina display 2x pixel density)",
+    "script": "viewportDetails-2xPixelDensity"
+  },
+  {
+    "id": "Viewport details (non retina display 1x pixel density)",
+    "script": "viewportDetails-1xPixelDensity"
+  },
+  {
+    "id": "Viewport details (non retina 1.5x pixel density)",
+    "script": "viewportDetails-1-5xPixelDensity"
+  },
+  {
+    "id": "GetTableData",
+    "script": "getTableData"
+  },
+  {
+    "id": "Page color analysis",
+    "script": "pageColorAnalysis"
+  },
+  {
+    "id": "Navigate like screen reader user",
+    "script": "navigateLikeScreenReaderUser"
+  },
+  {
+    "id": "Non underlined links",
+    "script": "nonUnderlinedLinks"
+  },
+  {
+    "id": "Suggest autocomplete values",
+    "script": "suggestAutocompleteValues"
+  },
+  {
+    "id": "Live region watcher",
+    "script": "liveRegionWatcher"
+  },
+  {
+    "id": "Screen reader simulation",
+    "script": "screenReaderSimulation"
+  },
+  {
+    "id": "List things with titles",
+    "script": "listThingsWithTitles"
+  },
+  {
+    "id": "Attribute stripper",
+    "script": "attributeStripper"
+  },
+  {
+    "id": "Element stripper",
+    "script": "elementStripper"
+  },
+  {
+    "id": "Node killer",
+    "script": "nodeKiller"
+  },
+  {
+    "id": "Node duplicator",
+    "script": "nodeDuplicator"
+  },
+  {
+    "id": "Serial killer",
+    "script": "serialKiller"
+  },
+  {
+    "id": "Isolator",
+    "script": "isolator"
+  },
+  {
+    "id": "Selector selector",
+    "script": "selectorSelector"
+  },
+  {
+    "id": "Xpath & source Getter",
+    "script": "xpath&SourceGetter"
+  },
+  {
+    "id": "Get All Links in Selected Area",
+    "script": "getAllLinksInSelectedArea"
+  },
+  {
+    "id": "Link Opener",
+    "script": "linkOpener"
+  },
+  {
+    "id": "Element Inspector",
+    "script": "elementInspector"
+  },
+  {
+    "id": "Outliner",
+    "script": "outliner"
+  },
+  {
+    "id": "Blur everything",
+    "script": "blurEverything"
+  },
+  {
+    "id": "Blur everything except",
+    "script": "blurEverythingExcept"
+  },
+  {
+    "id": "Grayscale everything",
+    "script": "grayscaleEverything"
+  }, 
+  {
+    "id": "Grayscale images",
+    "script": "grayscaleImages"
+  },
+  {
+    "id": "Smart invert",
+    "script": "smartInvert"
+  },
+  {
+    "id": "Freez the Dom",
+    "script": "freezeTheDom"
+  },
+  {
+    "id": "unframe iframes",
+    "script": "unframeIframes"
+  },
+  {
+    "id": "Light/Dark scheme (White/Black)",
+    "script": "whiteBlackMode"
+  },
+  {
+    "id": "Light/Dark scheme (Light Grey/Dark Grey)",
+    "script": "lightGreyDarkGreyMode"
+  },
+  {
+    "id": "Light/Dark scheme (Lurid)",
+    "script": "luridMode"
+  }
+]
