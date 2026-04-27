@@ -11,12 +11,16 @@
     });
 
     //données pour my-page
-    const buttonData = Array.from(buttons).map((btn, index) => ({
-        ref: index,
-        text: btn.textContent.trim() || btn.value || btn.getAttribute("aria-label") || "",
-        type: btn.tagName.toLowerCase(),
-        ariaLabel: btn.getAttribute("aria-label") || "",
-    }));
+    const buttonData = Array.from(buttons).map((b, i) => ({
+        ref: i,
+        text: b.textContent.trim() || b.value || "",
+        type: b.tagName.toLowerCase(),
+        ariaAttrs: Object.fromEntries(
+          [...b.attributes]
+            .filter(a => a.name.startsWith("aria-"))
+            .map(a => [a.name, a.value])
+        )
+      }));
 
     // open my-page
     const url =

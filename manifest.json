@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Regroupement des bookmarklets disponible sur A11Y.tools.com",
   "icons": { "48": "icon/programmation-web.png" },
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "tabs","<all_urls>"],
   "browser_action": {
     "default_icon": "icon/programmation-web.png",
     "default_title": "A11y-Bookmarklets",
@@ -24,7 +24,6 @@
     "bookmarklets/lostFocusAltert.js",
     "bookmarklets/structureRevealer.js",
     "bookmarklets/groupeFields.js",
-    "bookmarklets/checkHeadings.js",
     "bookmarklets/WTFocus.js",
     "bookmarklets/checkNewWindowLinks.js",
     "bookmarklets/visuallyHidden.js",
@@ -65,6 +64,7 @@
     "bookmarklets/grayscaleImages.js",
     "bookmarklets/smartInvert.js",
     "bookmarklets/freezeTheDom.js",
-    "bookmarklets/unframeIframes.js"
+    "bookmarklets/unframeIframes.js",
+    "bookmarklets/listHeadings.js"
   ]
 }

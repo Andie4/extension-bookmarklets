@@ -40,10 +40,6 @@
     "script": "groupedFields"
   },
   {
-    "id": "Vérifier les titres",
-    "script": "checkHeadings"
-  },
-  {
     "id": "WTFocus",
     "script": "WTFocus"
   },
@@ -206,5 +202,9 @@
   {
     "id": "Thème Light/Dark (Lurid)",
     "script": "luridMode"
+  },
+  {
+    "id": "Liste des titres",
+    "script": "listHeadings"
   }
 ]
