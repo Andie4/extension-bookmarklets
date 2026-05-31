@@ -11,12 +11,12 @@
     });
 
     //données pour my-page
-    const buttonData = Array.from(buttons).map((b, i) => ({
-        ref: i,
-        text: b.textContent.trim() || b.value || "",
-        type: b.tagName.toLowerCase(),
+    const buttonData = Array.from(buttons).map((button, index) => ({
+        ref: index,
+        text: button.textContent.trim() || b.value || "",
+        type: button.tagName.toLowerCase(),
         ariaAttrs: Object.fromEntries(
-          [...b.attributes]
+          [...button.attributes]
             .filter(a => a.name.startsWith("aria-"))
             .map(a => [a.name, a.value])
         )

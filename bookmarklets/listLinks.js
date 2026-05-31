@@ -1,5 +1,5 @@
 (function () {
-    const links = document.querySelectorAll("a");
+    const links = document.querySelectorAll("a, [role='link']");
 
     // surligner
     links.forEach((link, index) => {
@@ -14,6 +14,11 @@
         text: link.textContent.trim() || link.value || "",
         href: link.getAttribute("href") || "",
         title: link.getAttribute("title") || "",
+        ariaAttrs: Object.fromEntries(
+          [...link.attributes]
+            .filter(a => a.name.startsWith("aria-"))
+            .map(a => [a.name, a.value])
+        )
     }));
 
     // open my-page

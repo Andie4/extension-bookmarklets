@@ -7,9 +7,17 @@
 
 body{
     font-family: Marianne;
+    min-width: 400px;
+    width: 400px;
 }
 
-button{
+main{
+  margin-left : 2rem;  
+  margin-right: 2rem;
+  margin-top: 0.8rem;
+}
+
+/* button{
     background-color:#000091;
     color: #F5F5FE;
     font-size: 1rem;
@@ -17,9 +25,9 @@ button{
     border: none;
     margin: 0.5rem;
 
-}
+} */
 
-button:hover {
+/* button:hover {
     background-color:#1212ff;
     color: #F5F5FE;
     font-size: 1rem;
@@ -27,10 +35,33 @@ button:hover {
     border: none;
     margin: 0.5rem;
 
-}
+} */
 
-ul{
+/* ul{
     display: grid;
     justify-content: center;
     margin: 1rem;
+    list-style: none;
+        li{
+            list-style: none;
+        }
+} */
+
+.close-svg{
+    color: blue;
 }
+
+h1{
+    font-size: 1.5rem !important;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    width: fit-content;
+}
+

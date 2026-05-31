@@ -1,7 +1,7 @@
 [
   {
-    "id": "Liste des boutons",
-    "script": "listButtons"
+    "id": "Sélectionner une option",
+    "script": "default"
   },
   {
     "id": "Liste des images",
@@ -12,199 +12,155 @@
     "script": "listLinks"
   },
   {
-    "id": "Liste des tableaux",
-    "script": "listTabs"
+    "id": "Liste des boutons",
+    "script": "ListButtons"
   },
   {
-    "id": "Indications sur le focus",
-    "script": "focusIndicator"
+    "id": "Headings map",
+    "script": "headings_map"
   },
   {
-    "id": "Style du focus",
-    "script": "focusStyle"
+    "id": "01.9 Images légendées",
+    "script": "01_9_Images_l_gend_es"
   },
   {
-    "id": "Alerte du focus perdu",
-    "script": "lostFocusAltert"
+    "id": "01 Images",
+    "script": "01_Images"
   },
   {
-    "id": "Odre du focus",
-    "script": "focusOrder"
+    "id": "01 Liste images",
+    "script": "01_Liste_images"
   },
   {
-    "id": "Révélateur de structure",
-    "script": "structureRevealer"
+    "id": "02 Cadres",
+    "script": "02_Cadres"
   },
   {
-    "id": "Champs groupés",
-    "script": "groupedFields"
+    "id": "04.8 Non temporel",
+    "script": "04_8_Non_temporel"
   },
   {
-    "id": "WTFocus",
-    "script": "WTFocus"
+    "id": "05 Tableaux",
+    "script": "05_Tableaux"
   },
   {
-    "id": "Vérifier les liens ouvrant une nouvelle fenêtre",
-    "script": "checkNewWindowLinks"
+    "id": "06 Liens",
+    "script": "06_Liens"
   },
   {
-    "id": "Masqué visuellement",
-    "script": "visuallyHidden"
+    "id": "06 Liste liens",
+    "script": "06_Liste_liens"
   },
   {
-    "id": "Blackout",
-    "script": "blackout"
+    "id": "07.1 Scripts",
+    "script": "07_1_Scripts"
   },
   {
-    "id": "Click de crapulator",
-    "script": "clickDeCrapulator"
+    "id": "07.5 Statut",
+    "script": "07_5_Statut"
   },
   {
-    "id": "Consulter les critères de conformité WCAG",
-    "script": "lookUpWCAGSuccessCriteria"
+    "id": "08.2 Validation",
+    "script": "08_2_Validation"
   },
   {
-    "id": "Consulter la documentation HTML",
-    "script": "lookUpHTMLReference"
+    "id": "08.9 Sémantique",
+    "script": "08_9_S_mantique"
   },
   {
-    "id": "Inverser les refs des couleurs",
-    "script": "swatchifyColorRefs"
+    "id": "08 Langue et direction",
+    "script": "08_Langue_et_direction"
   },
   {
-    "id": "Détails de la fenêtre d'affichage (retina display 2x pixel density)",
-    "script": "viewportDetails-2xPixelDensity"
+    "id": "09.1 Titres",
+    "script": "09_1_Titres"
   },
   {
-    "id": "Détails de la fenêtre d'affichage(non retina display 1x pixel density)",
-    "script": "viewportDetails-1xPixelDensity"
+    "id": "09.2 12.6 Structure",
+    "script": "09_2_12_6_Structure"
   },
   {
-    "id": "Détails de la fenêtre d'affichage(non retina 1.5x pixel density)",
-    "script": "viewportDetails-1-5xPixelDensity"
+    "id": "09.3 Listes",
+    "script": "09_3_Listes"
   },
   {
-    "id": "Récupérer les données du tableau",
-    "script": "getTableData"
+    "id": "09.4 Citations",
+    "script": "09_4_Citations"
   },
   {
-    "id": "Analyse des couleurs de la page",
-    "script": "pageColorAnalysis"
+    "id": "0 Désactiver CSS",
+    "script": "0_D_sactiver_CSS"
   },
   {
-    "id": "Naviguer comme un utilisateur de lecteur d'écran",
-    "script": "navigateLikeScreenReaderUser"
+    "id": "0 Forcer le focus",
+    "script": "0_Forcer_le_focus"
   },
   {
-    "id": "Liens non soulignés",
-    "script": "nonUnderlinedLinks"
+    "id": "0 Show focus styles",
+    "script": "0_Show_focus_styles"
   },
   {
-    "id": "suggestions de saisie automatique",
-    "script": "suggestAutocompleteValues"
+    "id": "0 Tout effacer",
+    "script": "0_Tout_effacer"
   },
   {
-    "id": "Observateur de zones actives",
-    "script": "liveRegionWatcher"
+    "id": "10.12 Espacement",
+    "script": "10_12_Espacement"
   },
   {
-    "id": "Simulation de lecteur d'écran",
-    "script": "screenReaderSimulation"
+    "id": "10.1 Attributs et balises de présentation",
+    "script": "10_1_Attributs_et_balises_de_pr_sentation"
   },
   {
-    "id": "Liste d'éléments avec titres",
-    "script": "listThingsWithTitles"
+    "id": "10.2 Contenus CSS",
+    "script": "10_2_Contenus_CSS"
   },
   {
-    "id": "",
-    "script": "attributeStripper"
+    "id": "10.6 Lien contraste",
+    "script": "10_6_Lien_contraste"
   },
   {
-    "id": "Element stripper",
-    "script": "elementStripper"
+    "id": "10.6 Liens en environnement de texte",
+    "script": "10_6_Liens_en_environnement_de_texte"
   },
   {
-    "id": "Node killer",
-    "script": "nodeKiller"
+    "id": "10.8 Contenus cachés",
+    "script": "10_8_Contenus_cach_s"
   },
   {
-    "id": "Node duplicator",
-    "script": "nodeDuplicator"
+    "id": "10.9 Alternative à la forme et à la couleur",
+    "script": "10_9_Alternative___la_forme_et___la_couleur"
   },
   {
-    "id": "Serial killer",
-    "script": "serialKiller"
+    "id": "11.13 Autocomplete",
+    "script": "11_13_Autocomplete"
   },
   {
-    "id": "Isolateur",
-    "script": "isolator"
+    "id": "11.1 Formulaires",
+    "script": "11_1_Formulaires"
   },
   {
-    "id": "Selector selector",
-    "script": "selectorSelector"
+    "id": "11.5 Regroupements",
+    "script": "11_5_Regroupements"
   },
   {
-    "id": "Xpath & source Getter",
-    "script": "xpath&SourceGetter"
+    "id": "12.10 Raccourcis claviers",
+    "script": "12_10_Raccourcis_claviers"
   },
   {
-    "id": "Récupération des les liens de la zone sélectionnée",
-    "script": "getAllLinksInSelectedArea"
+    "id": "13.3 Documents",
+    "script": "13_3_Documents"
   },
   {
-    "id": "Link Opener",
-    "script": "linkOpener"
+    "id": "Bookmarklets - Paul J. Adam ",
+    "script": "Bookmarklets_-_Paul_J__Adam_-_Web___Mobile_Accessi"
   },
   {
-    "id": "Inspecteur d'éléments",
-    "script": "elementInspector"
+    "id": "Focus Bookmarklet",
+    "script": "Focus_Bookmarklet"
   },
   {
-    "id": "Outliner",
-    "script": "outliner"
-  },
-  {
-    "id": "Tout flouter",
-    "script": "blurEverything"
-  },
-  {
-    "id": "Tout flouter excepté",
-    "script": "blurEverythingExcept"
-  },
-  {
-    "id": "Tout griser",
-    "script": "grayscaleEverything"
-  }, 
-  {
-    "id": "Griser les images",
-    "script": "grayscaleImages"
-  },
-  {
-    "id": "Smart invert",
-    "script": "smartInvert"
-  },
-  {
-    "id": "Figer le Dom",
-    "script": "freezeTheDom"
-  },
-  {
-    "id": "unframe iframes",
-    "script": "unframeIframes"
-  },
-  {
-    "id": "Thème Light/Dark (White/Black)",
-    "script": "whiteBlackMode"
-  },
-  {
-    "id": "Thème Light/Dark (Light Grey/Dark Grey)",
-    "script": "lightGreyDarkGreyMode"
-  },
-  {
-    "id": "Thème Light/Dark (Lurid)",
-    "script": "luridMode"
-  },
-  {
-    "id": "Liste des titres",
-    "script": "listHeadings"
+    "id": "Images Bookmarklet",
+    "script": "Images_Bookmarklet"
   }
 ]

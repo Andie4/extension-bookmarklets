@@ -44,19 +44,28 @@ const tbody = document.getElementById("table-body");
     thead.innerHTML = `<tr>
         <th>Type</th>
         <th>Libellé</th>
-        <th>href</th>
         <th>Title</th>
         <th>Aria</th>
+        <th>href</th>
+
     </tr>`;
     data.forEach(link => {
-      const issue = !link.text && !link.ariaLabel;
+      const issue = !link.text && Object.keys(link.ariaAttrs).length === 0;
       const tr = document.createElement("tr");
       if (issue) tr.classList.add("issue");
+
+      // Formater les attributs ARIA : "aria-label : fermer, aria-expanded : true"
+      const ariaDisplay = Object.entries(link.ariaAttrs)
+          .map(([key, value]) => `${key} : ${value}`)
+          .join("<br>") || "—";
+
       tr.innerHTML = `
-        <td>${link.type || ""}</td>
-        <td>${link.text || ""}</td>
+        <td>${link.type || "/"}</td>
+        <td>${link.text || "/"}</td>
+        <td>${link.title || "/"}</td>
+        <td>${ariaDisplay || ""}</td>
         <td>${link.href}</td>
-        <td>${link.title || ""}</td>
+
       `;
       tbody.appendChild(tr);
     });
