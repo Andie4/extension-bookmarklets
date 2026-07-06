@@ -1,18 +1,20 @@
 {
     "manifest_version": 2,
-    "name": "Extension bookmarklets recette",
+    "name": "Extension bookmarklets",
     "version": "1.0",
     "description": "Regroupement des bookmarklets recette",
     "icons": {
-      "48": "icon/programmation-web.png"
+      "48": "medias/icon-extension.png"
     },
     "permissions": [
       "activeTab",
       "tabs",
-      "<all_urls>"
+      "<all_urls>",
+      "storage",
+      "windows"
     ],
     "browser_action": {
-      "default_icon": "icon/programmation-web.png",
+      "default_icon": "medias/icon-extension.png",
       "default_title": "Extension Bookmarklets recette",
       "default_popup": "popup/popup.html"
     },
@@ -23,8 +25,7 @@
       "bookmarklets/listImages.js",
       "bookmarklets/listLinks.js",
       "bookmarklets/listButtons.js",
-      "bookmarklets/headings_map.js",
-      "bookmarklets/01_9_Images_l_gend_es.js",
+      "bookmarklets/01_9_Images_legendees.js",
       "bookmarklets/01_Images.js",
       "bookmarklets/01_Liste_images.js",
       "bookmarklets/02_Cadres.js",
@@ -42,6 +43,7 @@
       "bookmarklets/09_3_Listes.js",
       "bookmarklets/09_4_Citations.js",
       "bookmarklets/0_D_sactiver_CSS.js",
+      "bookmarklets/greyScale.js",
       "bookmarklets/0_Forcer_le_focus.js",
       "bookmarklets/0_Show_focus_styles.js",
       "bookmarklets/0_Tout_effacer.js",
@@ -57,9 +59,7 @@
       "bookmarklets/11_5_Regroupements.js",
       "bookmarklets/12_10_Raccourcis_claviers.js",
       "bookmarklets/13_3_Documents.js",
-      "bookmarklets/Bookmarklets_-_Paul_J__Adam_-_Web___Mobile_Accessi.js",
       "bookmarklets/Focus_Bookmarklet.js",
-      "bookmarklets/Images_Bookmarklet.js",
       "popup/dist/component/button/button.module.min.js",
       "popup/dist/component/tab/tab.module.min.js",
       "popup/dist/core/core.module.min.js"

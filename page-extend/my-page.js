@@ -94,4 +94,22 @@ const tbody = document.getElementById("table-body");
       tbody.appendChild(tr);
     });
   
-}
+//cadres 
+  } else if (type === "iframes") {
+    title.textContent = "Cadres (iframes)";
+    total.textContent = data.length + " iframe(s) trouvée(s)";
+    thead.innerHTML = `<tr>
+      <th>Title</th>
+      <th>Src</th>
+    </tr>`;
+
+    data.forEach(iframe => {
+    const tr = document.createElement("tr");
+
+      tr.innerHTML = `
+        <td>${iframe.title ?? ""}</td>
+        <td>${iframe.src ?? ""}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }

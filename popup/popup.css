@@ -9,43 +9,55 @@ body{
     font-family: Marianne;
     min-width: 400px;
     width: 400px;
+    height: fit-content;
+    font-size: 1rem;
+    /* background-color: pink; */
 }
 
 main{
-  margin-left : 2rem;  
-  margin-right: 2rem;
   margin-top: 0.8rem;
+  height: fit-content;
+  /* background-color: pink; */  
 }
 
-/* button{
-    background-color:#000091;
-    color: #F5F5FE;
-    font-size: 1rem;
-    padding: .5rem 1rem;
-    border: none;
-    margin: 0.5rem;
+.divItem{
+    /* background-color: red; */
+    width: 100%;
+}
 
-} */
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: pink; */
+    gap: 1rem;
+}
 
-/* button:hover {
-    background-color:#1212ff;
-    color: #F5F5FE;
-    font-size: 1rem;
-    padding: .5rem 1rem;
-    border: none;
-    margin: 0.5rem;
+#delete{
+    margin-left: 0rem;
+}
 
-} */
+#add{
+    margin-left: 0rem;
+}
 
-/* ul{
-    display: grid;
-    justify-content: center;
-    margin: 1rem;
-    list-style: none;
-        li{
-            list-style: none;
+.flex {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    /* background-color: blue; */
+
+    li{
+        list-style: none;
+        width: 3rem;
+        display: flex;
+        height: 1rem;
+
+        button {
+            margin-left: 0rem;
         }
-} */
+    }
+} 
 
 .close-svg{
     color: blue;
@@ -55,13 +67,26 @@ h1{
     font-size: 1.5rem !important;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.marginBottom{
+    margin-bottom: 0rem !important;
 }
 
-button{
-    width: fit-content;
+.marginTop{
+    margin-top: 0rem !important;
 }
 
+.paddingTop{
+    padding-top: 0rem !important;
+}
+
+.paddingBottom{
+    padding-bottom: 0rem !important;
+}
+
+
+
+datalist {
+  z-index: 9999;
+  position: relative;
+}

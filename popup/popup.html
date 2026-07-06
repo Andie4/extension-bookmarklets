@@ -53,17 +53,9 @@
     
 </head>
 <body>
-    <main>
-
-
-        <button aria-controls="menu-modal" title="Fermer" type="button" id="closeExtension" class="fr-btn--close fr-btn" data-fr-js-modal-button="true">Fermer</button>
-        <!-- <button type="button" class="fr-btn--close fr-btn" onclick="closeExtension()">Fermer</button> -->
-
-        <h1>A11y</h1>
-        <p>Recettez votre page avec l'extension accessibilité</p>
-
+    <main id="main">
         <!-- onglets  -->
-         <div class="fr-tabs">
+        <div class="fr-tabs">
             <ul class="fr-tabs__list" role="tablist" aria-label="[A modifier | nom du système d'onglet]">
                 <li role="presentation">
                 <button type="button" id="storybook-tab-0" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="storybook-tab-0-panel">Favoris</button>
@@ -72,54 +64,68 @@
                 <button type="button" id="storybook-tab-1" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="storybook-tab-1-panel">Tests</button>
                 </li>
                 <li role="presentation">
-                <button type="button" id="storybook-tab-2" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="storybook-tab-2-panel">Simulations</button>
+                <button type="button" id="storybook-tab-2" class="fr-tabs__tab" tabindex="-2" role="tab" aria-selected="false" aria-controls="storybook-tab-2-panel">Simulations</button>
                 </li>
             </ul>
 
             <!-- contenu onglet 0  -->
-            <div id="storybook-tab-0-panel" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="storybook-tab-0" tabindex="0">  
-                <h2>Gestion des favoris</h2><!-- Gestion des favoris  -->
+            <div id="storybook-tab-0-panel" class="fr-tabs__panel fr-tabs__panel--selected paddingTop marginTop" role="tabpanel" aria-labelledby="storybook-tab-0" tabindex="0">  
+                <!-- Favoris  -->
+                <div>
+                    <h2 class="" aria-live="polite">Favoris (<span id="nbrResult" title="favoris"></span>)</h2>
+                    <fieldset class="fr-fieldset" id="toggle-group-id-1" aria-labelledby="toggle-group-id-1-legend toggle-group-id-1-messages">
+                        <!-- <legend class="fr-fieldset__legend  paddingTop " id="toggle-group-id-1-legend"> Légende pour l'ensemble des éléments </legend> -->
+                        <div class="fr-fieldset__element marginTop paddingBottom">
+                            <ul class="fr-toggle__list marginTop marginBottom paddingTop" id="favList">
+                            </ul>
+                        </div>
+                        <div class="fr-messages-group marginTop marginBottom paddingTop" id="toggle-group-id-1-messages" aria-live="polite">
+                        </div>
+                    </fieldset>
+                
+                </div>
+                
+                <h2>Gestion des favoris</h2>
                 <div>
                     <!-- Liste déroulante  -->
                     <div class="fr-select-group">
-                        <label class="fr-label" for="select-1">Critères</label>
+                        <!-- <label class="fr-label" for="select-1">Critères</label>
                         <select class="fr-select" aria-describedby="select-1-messages" id="select-1" name="select-1">
-                        </select>
-                        <div class="fr-messages-group" id="select-1-messages" aria-live="polite">
+                        </select> -->
+
+                        <!-- datalist  -->
+                        <div class="fr-input-group">
+                            <label class="fr-label" for="select-1">Rechercher</label>
+                            <input class="fr-input" list="datalist-bmk" id="select-1" name="select-1" placeholder="Rechercher un bookmarklet"/>
+                            <datalist id="datalist-bmk">
+                                <!-- rempli par popup.js -->
+                            </datalist>
                         </div>
                     </div>
 
                     <!-- boutons -->
-                    <ul class="fr-btns-group fr-btns-group--inline">                
-                        <li>                  
-                        <button type="button" class="fr-btn fr-btn--secondary" id="delete" >Supprimer</button>                
-                        </li>                  
-                        <li>
+                    <div class="flex">                
+                        <!-- <li>                  
+                            <button type="button" class="fr-btn fr-btn--secondary" id="delete" >Supprimer</button>                
+                        </li>                   -->
                         <button type="button" class="fr-btn " id="add">Ajouter</button>              
-                         </li>
-                    </ul>    
+
+                        <!-- <li>
+                            <button type="button" class="fr-btn " id="add">Ajouter</button>              
+                        </li> -->
+                    </div>    
                 </div>
-<!-- Favoris  -->
-<div>
-                    <h2>Favoris</h2>
-                    <fieldset class="fr-fieldset" id="toggle-group-id-9" aria-labelledby="toggle-group-id-9-legend toggle-group-id-9-messages">
-                        <legend class="fr-fieldset__legend" id="toggle-group-id-9-legend"> Légende pour l'ensemble des éléments </legend>
-                        <div class="fr-fieldset__element">
-                            <ul class="fr-toggle__list" id="favList">
-                            </ul>
-                        </div>
-                        <div class="fr-messages-group" id="toggle-group-id-9-messages" aria-live="polite">
-                        </div>
-                    </fieldset>
-                </div>
+
+
             </div>
 
             <!-- contenu onglet 1 -->
             <div id="storybook-tab-1-panel" class="fr-tabs__panel" role="tabpanel" aria-labelledby="storybook-tab-1" tabindex="0">
-                <h2>Test</h2>
+                <!-- <h2>Tests</h2> -->
                 <fieldset class="fr-fieldset">
-                    <legend class="fr-fieldset__legend">Liste des bookmarklets</legend>
+                    <!-- <legend class="fr-fieldset__legend">Tous les bookmarklets</legend> -->
                     <div class="fr-fieldset__element">
+                        <input class="fr-input" type="search" id="search-tests" placeholder="Rechercher un bookmarklet">
                         <ul class="fr-toggle__list" id="bookmarklet-list">
                             <!-- rempli par popup.js -->
                         </ul>
@@ -129,22 +135,26 @@
 
             <!-- contenu onglet 2 -->
             <div id="storybook-tab-2-panel" class="fr-tabs__panel" role="tabpanel" aria-labelledby="storybook-tab-2" tabindex="0">
-                <!-- Favoris  -->
-                <div>
-                    <h2>Simulations</h2>
-                    <fieldset class="fr-fieldset" id="toggle-group-id-9" aria-labelledby="toggle-group-id-9-legend toggle-group-id-9-messages">
-                        <legend class="fr-fieldset__legend" id="toggle-group-id-9-legend">Bookmarklets de simulations</legend>
-                        <div class="fr-fieldset__element">
-                            <ul class="fr-toggle__list" id="dataList">
-                            
-                            </ul>
-                        </div>
-                        <div class="fr-messages-group" id="toggle-group-id-9-messages" aria-live="polite">
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
+                <!-- <h2 class="">Simulations</h2> -->
 
+                <!-- Simulations  -->
+                <fieldset class="fr-fieldset" id="toggle-group-id-3" aria-labelledby="toggle-group-id-3-legend toggle-group-id-3-messages">
+                    <!-- <legend class="fr-fieldset__legend " id="toggle-group-id-3-legend">Bookmarklets de simulations</legend> -->
+                    <div class="fr-fieldset__element">
+                        <ul class="fr-toggle__list" id="dataList">
+                            <li>
+                                <div class="fr-toggle fr-toggle--border-bottom">
+                                <input type="checkbox" class="fr-toggle__input" id="${bmk.script}" id="zoom">
+                                <label class="fr-toggle__label" for="">Zoom 400%</label>
+                                <div class="fr-messages-group" id="${bmk.script}-messages" aria-live="polite"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fr-messages-group" id="toggle-group-id-3-messages" aria-live="polite">                           
+                    </div>
+                </fieldset>
+            </div>
         </div>
         
     <!-- <p id="result"></p> -->

@@ -1,166 +1,221 @@
 [
   {
     "id": "Sélectionner une option",
-    "script": "default"
+    "script": "default",
+    "type": "default",
+    "groupe": ""
+  },
+  {
+    "id": "Images [1]",
+    "script": "01_Images",
+    "type": "toggle",
+    "groupe": "Images"
   },
   {
     "id": "Liste des images",
-    "script": "listImages"
+    "script": "listImages",
+    "type": "toggle",
+    "groupe": "Images"
+  },
+  {
+    "id": "Images légendées [1.9]",
+    "script": "01_9_Images_legendees",
+    "type": "toggle",
+    "groupe": "Images"
+  },
+  {
+    "id": "Cadres [2]",
+    "script": "02_Cadres",
+    "type": "toggle",
+    "groupe": "Cadres"
+  },
+  {
+    "id": "Non temporel [4.8]",
+    "script": "04_8_Non_temporel",
+    "type": "toggle",
+    "groupe": "Multimédia"
+  },
+  {
+    "id": "Tableaux [5]",
+    "script": "05_Tableaux",
+    "type": "toggle",
+    "groupe": "Tableaux"
+  },
+  {
+    "id": "Liens [6]",
+    "script": "06_Liens",
+    "type": "toggle",
+    "groupe": "Liens"
   },
   {
     "id": "Liste des liens",
-    "script": "listLinks"
+    "script": "listLinks",
+    "type": "toggle",
+    "groupe": "Liens"
+  },
+  {
+    "id": "Scripts [7.1]",
+    "script": "07_1_Scripts",
+    "type": "toggle",
+    "groupe": "Scripts"
+  },
+  {
+    "id": "Statut [7.5]",
+    "script": "07_5_Statut",
+    "type": "Scripts",
+    "groupe": "Scripts"
   },
   {
     "id": "Liste des boutons",
-    "script": "ListButtons"
+    "script": "ListButtons",
+    "type": "toggle",
+    "groupe": ""
   },
   {
-    "id": "Headings map",
-    "script": "headings_map"
+    "id": "Langue et direction [8]",
+    "script": "08_Langue_et_direction",
+    "type": "toggle",
+    "groupe": "Éléments obligatoires"
   },
   {
-    "id": "01.9 Images légendées",
-    "script": "01_9_Images_l_gend_es"
+    "id": "Validation [8.2]",
+    "script": "08_2_Validation",
+    "type": "toggle",
+    "groupe": "Éléments obligatoires"
   },
   {
-    "id": "01 Images",
-    "script": "01_Images"
+    "id": "Sémantique [8.9]",
+    "script": "08_9_semantique",
+    "type": "toggle",
+    "groupe": "Éléments obligatoires"
   },
   {
-    "id": "01 Liste images",
-    "script": "01_Liste_images"
+    "id": "Titres [9.1]",
+    "script": "09_1_Titres",
+    "type": "toggle",
+    "groupe": "Stucturation de l'information"
   },
   {
-    "id": "02 Cadres",
-    "script": "02_Cadres"
+    "id": "Structure [9.2 et 12.6]",
+    "script": "09_2_12_6_Structure",
+    "type": "toggle",
+    "groupe": "Stucturation de l'information"
   },
   {
-    "id": "04.8 Non temporel",
-    "script": "04_8_Non_temporel"
+    "id": "Listes [9.3]",
+    "script": "09_3_Listes",
+    "type": "toggle",
+    "groupe": "Stucturation de l'information"
   },
   {
-    "id": "05 Tableaux",
-    "script": "05_Tableaux"
+    "id": "Citations [9.4]",
+    "script": "09_4_Citations",
+    "type": "toggle",
+    "groupe": "Stucturation de l'information"
   },
   {
-    "id": "06 Liens",
-    "script": "06_Liens"
+    "id": "Attributs et balises de présentation [10.1]",
+    "script": "10_1_Attributs_et_balises_de_presentation",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "06 Liste liens",
-    "script": "06_Liste_liens"
+    "id": "Contenus CSS [10.2]",
+    "script": "10_2_Contenus_CSS",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "07.1 Scripts",
-    "script": "07_1_Scripts"
+    "id": "Lien contraste [10.6]",
+    "script": "10_6_Lien_contraste",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "07.5 Statut",
-    "script": "07_5_Statut"
+    "id": "Liens en environnement de texte [10.6]",
+    "script": "10_6_Liens_en_environnement_de_texte",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "08.2 Validation",
-    "script": "08_2_Validation"
+    "id": "Contenus cachés  [10.8]",
+    "script": "10_8_Contenus_caches",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "08.9 Sémantique",
-    "script": "08_9_S_mantique"
+    "id": "Alternative à la forme et à la couleur [10.9]",
+    "script": "10_9_Alternative_a_la_forme_et_a_la_couleur",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
+  },  {
+    "id": "Espacement [10.12]",
+    "script": "10_12_Espacement",
+    "type": "toggle",
+    "groupe": "Présentation de l'information"
   },
   {
-    "id": "08 Langue et direction",
-    "script": "08_Langue_et_direction"
+    "id": "Formulaires [11.1]",
+    "script": "11_1_Formulaires",
+    "type": "toggle",
+    "groupe": "Formulaire"
   },
   {
-    "id": "09.1 Titres",
-    "script": "09_1_Titres"
+    "id": "Regroupements [11.5]",
+    "script": "11_5_Regroupements",
+    "type": "toggle",
+    "groupe": "Formulaire"
   },
   {
-    "id": "09.2 12.6 Structure",
-    "script": "09_2_12_6_Structure"
+    "id": "Autocomplétion [11.13]",
+    "script": "11_13_Autocomplete",
+    "type": "toggle",
+    "groupe": "Formulaire"
+  },  
+  {
+    "id": "Forcer le focus",
+    "script": "0_Forcer_le_focus",
+    "type": "toggle",
+    "groupe": "Navigation"
   },
   {
-    "id": "09.3 Listes",
-    "script": "09_3_Listes"
+    "id": "Montrer le style du focus",
+    "script": "0_Show_focus_styles",
+    "type": "toggle",
+    "groupe": "Navigation"
   },
   {
-    "id": "09.4 Citations",
-    "script": "09_4_Citations"
+    "id": "Raccourcis claviers [12.10]",
+    "script": "12_10_Raccourcis_claviers",
+    "type": "toggle",
+    "groupe": "Navigation"
+
   },
   {
-    "id": "0 Désactiver CSS",
-    "script": "0_D_sactiver_CSS"
+    "id": "Documents [13.3]",
+    "script": "13_3_Documents",
+    "type": "toggle",
+    "groupe": "Consultation"
   },
   {
-    "id": "0 Forcer le focus",
-    "script": "0_Forcer_le_focus"
+    "id": "Zoom à 200%",
+    "script": "zoom_200",
+    "type": "toggle"
   },
   {
-    "id": "0 Show focus styles",
-    "script": "0_Show_focus_styles"
+    "id": "Zoom à 400%",
+    "script": "zoom_400",
+    "type": "toggle"
   },
   {
-    "id": "0 Tout effacer",
-    "script": "0_Tout_effacer"
+    "id": "Désactiver le CSS",
+    "script": "0_Desactiver_CSS",
+    "type": "toggle"
   },
   {
-    "id": "10.12 Espacement",
-    "script": "10_12_Espacement"
-  },
-  {
-    "id": "10.1 Attributs et balises de présentation",
-    "script": "10_1_Attributs_et_balises_de_pr_sentation"
-  },
-  {
-    "id": "10.2 Contenus CSS",
-    "script": "10_2_Contenus_CSS"
-  },
-  {
-    "id": "10.6 Lien contraste",
-    "script": "10_6_Lien_contraste"
-  },
-  {
-    "id": "10.6 Liens en environnement de texte",
-    "script": "10_6_Liens_en_environnement_de_texte"
-  },
-  {
-    "id": "10.8 Contenus cachés",
-    "script": "10_8_Contenus_cach_s"
-  },
-  {
-    "id": "10.9 Alternative à la forme et à la couleur",
-    "script": "10_9_Alternative___la_forme_et___la_couleur"
-  },
-  {
-    "id": "11.13 Autocomplete",
-    "script": "11_13_Autocomplete"
-  },
-  {
-    "id": "11.1 Formulaires",
-    "script": "11_1_Formulaires"
-  },
-  {
-    "id": "11.5 Regroupements",
-    "script": "11_5_Regroupements"
-  },
-  {
-    "id": "12.10 Raccourcis claviers",
-    "script": "12_10_Raccourcis_claviers"
-  },
-  {
-    "id": "13.3 Documents",
-    "script": "13_3_Documents"
-  },
-  {
-    "id": "Bookmarklets - Paul J. Adam ",
-    "script": "Bookmarklets_-_Paul_J__Adam_-_Web___Mobile_Accessi"
-  },
-  {
-    "id": "Focus Bookmarklet",
-    "script": "Focus_Bookmarklet"
-  },
-  {
-    "id": "Images Bookmarklet",
-    "script": "Images_Bookmarklet"
+    "id": "Nuance de gris",
+    "script": "greyScale",
+    "type": "toggle"
   }
+
 ]

@@ -13,7 +13,7 @@
     //données pour my-page
     const buttonData = Array.from(buttons).map((button, index) => ({
         ref: index,
-        text: button.textContent.trim() || b.value || "",
+        text: button.textContent.trim() || button.value || "",
         type: button.tagName.toLowerCase(),
         ariaAttrs: Object.fromEntries(
           [...button.attributes]
