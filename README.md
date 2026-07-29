@@ -1,6 +1,6 @@
-# Extension de bookmarklets d'accessibilité 
+# Extension A11y WebCheck
 
-L'extension regroupe les bookmarklets disponible sur A11Y.tools.com <a href="https://a11y-tools.com/bookmarklets/">A11Y Tools</a>
+L'extension regroupe des bookmarklets de test d'accessibilité. 
 
 ## Prise en main :
 Pour récupérer l'extension il faut : 
@@ -16,11 +16,16 @@ Pour récupérer l'extension il faut :
 ## Environnement de travail :
 Cette extension est uniquement fonctionnelle sur Firefox.
 
+
 ## Sources:
-* Icon : <a href="https://www.flaticon.com/fr/icone-gratuite/programmation-web_2582268?term=programmation+web&page=1&position=33&origin=tag&related_id=2582268">Programmation web icônes créées par vectorspoint - Flaticon </a>
-* Bookmarklets : <a href="https://a11y-tools.com/">A11y Tools </a>
+Icon : Andréa Caneval
+
+
+## Développeuse : 
+Caneval Andréa
+
 
 ## Date de création :
 Cette extension à été créer le 24/03/2026.
-Dernière modification faites le 07/04/2026.
+Dernière modification faites le 29/07/2026.
 
